@@ -15,7 +15,12 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Text(
           "Home",
-          style: Theme.of(context).textTheme.bodyLarge,
+          style: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.w400,
+            fontFamily: 'Roboto',
+            color: Colors.black
+        ),
         ),
       ),
     );

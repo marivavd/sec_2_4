@@ -50,12 +50,7 @@ var lightTheme = ThemeData(
         fontFamily: 'Roboto',
         color: Color.fromARGB(255, 5, 96, 250)
     ),
-    bodyLarge: TextStyle(
-        fontSize: 24,
-        fontWeight: FontWeight.w400,
-        fontFamily: 'Roboto',
-        color: Colors.black
-    ),
+
     headlineSmall: TextStyle(
         fontSize: 14,
         fontWeight: FontWeight.w500,

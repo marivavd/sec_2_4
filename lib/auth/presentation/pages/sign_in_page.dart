@@ -65,8 +65,11 @@ class _Sign_in_PageState extends State<Sign_in_Page> {
                                 color: Color.fromARGB(255, 0, 108, 236), width: 1),
                             activeColor: Color.fromARGB(255, 0, 108, 236),
                             onChanged: (bool? val){
-                              check = val!;
-                              is_Valid();
+                              setState(() {
+                                check = val!;
+                                is_Valid();
+                              });
+
                             }),
                       ),
                       SizedBox(
